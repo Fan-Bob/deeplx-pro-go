@@ -1,14 +1,14 @@
 {
   "version": 2,
+  "env": {
+    "DEEPL_COOKIES": "3a81761e-faac-4f91-8770-5f65a90e217b"
+  },
   "builds": [
     {
       "src": "Dockerfile",
       "use": "@vercel/docker"
     }
   ],
-  "env": {
-    "DEEPL_COOKIES": "3a81761e-faac-4f91-8770-5f65a90e217b"
-  },
   "routes": [
     {
       "src": "/(.*)",
